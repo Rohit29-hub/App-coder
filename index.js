@@ -3,7 +3,7 @@ var path = require('path');
 var cookieParser = require('cookie-parser');
 const express_session = require('express-session');
 var app = express();
-var indexRouter = require('./routes/index');
+var indexRouter = require('./routes/app');
 var usersRouter = require('./routes/users');
 const passport = require('passport');
 require('dotenv').config();

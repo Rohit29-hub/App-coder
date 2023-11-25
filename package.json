@@ -1,9 +1,9 @@
 {
   "name": "backend",
   "version": "0.0.0",
-  "private": true,
+  "private": true, 
   "scripts": {
-    "start": "npm app"
+    "start": "npm index"
   },
   "dependencies": {
     "connect-flash": "^0.1.1",
